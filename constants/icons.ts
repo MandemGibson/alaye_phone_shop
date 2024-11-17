@@ -1,0 +1,50 @@
+export const homeIcon = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.02 2.84004L3.63 7.04004C2.73 7.74004 2 9.23004 2 10.36V17.77C2 20.09 3.89 21.99 6.21 21.99H17.79C20.11 21.99 22 20.09 22 17.78V10.5C22 9.29004 21.19 7.74004 20.2 7.05004L14.02 2.72004C12.62 1.74004 10.37 1.79004 9.02 2.84004Z" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 17.99V14.99" stroke="currentColor" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`;
+
+export const productIcon = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17 10H19C21 10 22 9 22 7V5C22 3 21 2 19 2H17C15 2 14 3 14 5V7C14 9 15 10 17 10Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 22H7C9 22 10 21 10 19V17C10 15 9 14 7 14H5C3 14 2 15 2 17V19C2 21 3 22 5 22Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6 10C8.20914 10 10 8.20914 10 6C10 3.79086 8.20914 2 6 2C3.79086 2 2 3.79086 2 6C2 8.20914 3.79086 10 6 10Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 22C20.2091 22 22 20.2091 22 18C22 15.7909 20.2091 14 18 14C15.7909 14 14 15.7909 14 18C14 20.2091 15.7909 22 18 22Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`;
+
+export const notificationIcon = `<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 6.97668V10.5842" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M13.0217 2.16663C9.035 2.16663 5.80666 5.39496 5.80666 9.38163V11.6566C5.80666 12.3933 5.50333 13.4983 5.12416 14.1266L3.74833 16.4233C2.90333 17.8425 3.48833 19.4241 5.04833 19.9441C10.2267 21.6666 15.8275 21.6666 21.0058 19.9441C22.4683 19.4566 23.0967 17.745 22.3058 16.4233L20.93 14.1266C20.5508 13.4983 20.2475 12.3825 20.2475 11.6566V9.38163C20.2367 5.41663 16.9867 2.16663 13.0217 2.16663Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M16.6075 20.3883C16.6075 22.3708 14.9825 23.9958 13 23.9958C12.0142 23.9958 11.1042 23.5841 10.4542 22.9341C9.80417 22.2841 9.3925 21.3741 9.3925 20.3883" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
+</svg>
+`;
+
+export const profileIcon = `<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 13C15.9916 13 18.4167 10.5748 18.4167 7.58329C18.4167 4.59175 15.9916 2.16663 13 2.16663C10.0085 2.16663 7.58334 4.59175 7.58334 7.58329C7.58334 10.5748 10.0085 13 13 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.3058 23.8333C22.3058 19.6408 18.135 16.25 13 16.25C7.86501 16.25 3.69418 19.6408 3.69418 23.8333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`;
+export const homeIconFilled = `<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.71 7.38829L15.47 3.02245C13.7692 1.83079 11.1583 1.89579 9.5225 3.16329L4.095 7.39912C3.01167 8.24412 2.15583 9.97745 2.15583 11.3425V18.8175C2.15583 21.58 4.39833 23.8333 7.16083 23.8333H18.8392C21.6017 23.8333 23.8442 21.5908 23.8442 18.8283V11.4833C23.8442 10.0208 22.9017 8.22245 21.71 7.38829ZM13.8125 19.5C13.8125 19.9441 13.4442 20.3125 13 20.3125C12.5558 20.3125 12.1875 19.9441 12.1875 19.5V16.25C12.1875 15.8058 12.5558 15.4375 13 15.4375C13.4442 15.4375 13.8125 15.8058 13.8125 16.25V19.5Z" fill="currentColor"/>
+</svg>
+`;
+
+export const productIconFilled = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.67 2H16.77C14.59 2 13.44 3.15 13.44 5.33V7.23C13.44 9.41 14.59 10.56 16.77 10.56H18.67C20.85 10.56 22 9.41 22 7.23V5.33C22 3.15 20.85 2 18.67 2Z" fill="currentColor"/>
+<path d="M7.24 13.4301H5.34C3.15 13.4301 2 14.5801 2 16.7601V18.6601C2 20.8501 3.15 22.0001 5.33 22.0001H7.23C9.41 22.0001 10.56 20.8501 10.56 18.6701V16.7701C10.57 14.5801 9.42 13.4301 7.24 13.4301Z" fill="currentColor"/>
+<path d="M6.29 10.58C8.6593 10.58 10.58 8.6593 10.58 6.29C10.58 3.9207 8.6593 2 6.29 2C3.9207 2 2 3.9207 2 6.29C2 8.6593 3.9207 10.58 6.29 10.58Z" fill="currentColor"/>
+<path d="M17.71 22C20.0793 22 22 20.0793 22 17.71C22 15.3407 20.0793 13.42 17.71 13.42C15.3407 13.42 13.42 15.3407 13.42 17.71C13.42 20.0793 15.3407 22 17.71 22Z" fill="currentColor"/>
+</svg>
+`;
+
+export const notificationIconFilled = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.19 14.06L19.06 12.18C18.81 11.77 18.59 10.98 18.59 10.5V8.62999C18.59 4.99999 15.64 2.04999 12.02 2.04999C8.39002 2.05999 5.44002 4.99999 5.44002 8.62999V10.49C5.44002 10.97 5.22002 11.76 4.98002 12.17L3.85002 14.05C3.42002 14.78 3.32002 15.61 3.59002 16.33C3.86002 17.06 4.47002 17.64 5.27002 17.9C6.35002 18.26 7.44002 18.52 8.55002 18.71C8.66002 18.73 8.77002 18.74 8.88002 18.76C9.02002 18.78 9.17002 18.8 9.32002 18.82C9.58002 18.86 9.84002 18.89 10.11 18.91C10.74 18.97 11.38 19 12.02 19C12.65 19 13.28 18.97 13.9 18.91C14.13 18.89 14.36 18.87 14.58 18.84C14.76 18.82 14.94 18.8 15.12 18.77C15.23 18.76 15.34 18.74 15.45 18.72C16.57 18.54 17.68 18.26 18.76 17.9C19.53 17.64 20.12 17.06 20.4 16.32C20.68 15.57 20.6 14.75 20.19 14.06ZM12.75 9.99999C12.75 10.42 12.41 10.76 11.99 10.76C11.57 10.76 11.23 10.42 11.23 9.99999V6.89999C11.23 6.47999 11.57 6.13999 11.99 6.13999C12.41 6.13999 12.75 6.47999 12.75 6.89999V9.99999Z" fill="currentColor"/>
+<path d="M14.83 20.01C14.41 21.17 13.3 22 12 22C11.21 22 10.43 21.68 9.87999 21.11C9.55999 20.81 9.31999 20.41 9.17999 20C9.30999 20.02 9.43999 20.03 9.57999 20.05C9.80999 20.08 10.05 20.11 10.29 20.13C10.86 20.18 11.44 20.21 12.02 20.21C12.59 20.21 13.16 20.18 13.72 20.13C13.93 20.11 14.14 20.1 14.34 20.07C14.5 20.05 14.66 20.03 14.83 20.01Z" fill="currentColor"/>
+</svg>
+`;
+
+export const profileIconFilled = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z" fill="currentColor"/>
+<path d="M11.9999 14.5C6.98991 14.5 2.90991 17.86 2.90991 22C2.90991 22.28 3.12991 22.5 3.40991 22.5H20.5899C20.8699 22.5 21.0899 22.28 21.0899 22C21.0899 17.86 17.0099 14.5 11.9999 14.5Z" fill="currentColor"/>
+</svg>
+`;

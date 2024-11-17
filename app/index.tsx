@@ -1,19 +1,15 @@
-import { useFonts } from "expo-font";
-import { SplashScreen } from "expo-router";
+import { router } from "expo-router";
 import { useEffect } from "react";
 import { Text, View } from "react-native";
 
 export default function Index() {
-  const [loaded, error] = useFonts({
-    
-  });
-
   useEffect(() => {
-    if (error) throw error;
+    const timer = setTimeout(() => {
+      router.replace("/home");
+    }, 3000);
 
-    if (loaded) SplashScreen.hideAsync();
-  }, [loaded, error]);
-  if (!loaded && !error) return null;
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <View
