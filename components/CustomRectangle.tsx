@@ -1,11 +1,11 @@
 import * as React from "react";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, TouchableOpacity } from "react-native";
 import Svg, { G, Path, Defs, LinearGradient, Stop } from "react-native-svg";
 
-const CustomRectangle: React.FC<{ children?: React.ReactNode }> = ({
-  children,
-  ...props
-}) => (
+const CustomRectangle: React.FC<{
+  children?: React.ReactNode;
+  onPress: () => void;
+}> = ({ children,onPress, ...props }) => (
   <View className="relative h-[400px] w-[288px]">
     <Svg width={288} height={400} viewBox="0 0 288 400" fill="none" {...props}>
       <G filter="url(#filter0_d_1_33323)">
@@ -29,9 +29,13 @@ const CustomRectangle: React.FC<{ children?: React.ReactNode }> = ({
       </Defs>
     </Svg>
 
-    <View style={styles.childrenContainer}>
+    <TouchableOpacity
+      onPress={onPress}
+      activeOpacity={0.9}
+      style={styles.childrenContainer}
+    >
       {children}
-    </View>
+    </TouchableOpacity>
   </View>
 );
 

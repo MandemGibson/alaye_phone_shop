@@ -19,6 +19,7 @@ import {
 } from "@/constants/icons";
 import CustomRectangle from "@/components/CustomRectangle";
 import CartIcon from "@/components/CartIcon";
+import { Href, router } from "expo-router";
 
 const categories = [
   {
@@ -43,6 +44,10 @@ const Home = () => {
 
   const handleCategoryChange = (name: string) => {
     selectedCategory(name);
+  };
+
+  const openProductDetails = (id: number) => {
+    router.push(`/products/${id}` as Href);
   };
 
   return (
@@ -116,11 +121,14 @@ const Home = () => {
           showsHorizontalScrollIndicator={false}
           data={[1, 1, 1, 1]}
           renderItem={({ item, index }) => (
-            <CustomRectangle key={index}>
+            <CustomRectangle
+              onPress={() => openProductDetails(index)}
+              key={index}
+            >
               <View className="bg-transparent relative flex flex-col items-center justify-center gap-5">
                 <Image
                   source={{
-                    uri: "https://imgs.search.brave.com/0Wd3c1OFXE2VKLG-ZBIUnMiMSILbrBu1YN6Va-e9VVU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YXBwbGUuY29tL3Yv/aXBob25lL2hvbWUv/YngvaW1hZ2VzL292/ZXJ2aWV3L3NlbGVj/dC9pcGhvbmVfMTVf/X2J1d2FnZmYwbXd3/aV94bGFyZ2UucG5n",
+                    uri: "https://imgs.search.brave.com/HGLIozV7nrrn2GXGnGRiz7vJup7kyy08feWb1AgMZjc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZHNh/c3NldHMuYXBwbGUu/Y29tL2xpdmUvN1dV/QVMzNTAvaW1hZ2Vz/L2lvcy9pb3MtMTgt/aXBob25lLTE1LXBy/by1jdXN0b21pemUt/bG9jay1zY3JlZW4u/cG5n",
                   }}
                   className="w-[100px] h-[170px] bg-transparent"
                   style={{
@@ -131,10 +139,14 @@ const Home = () => {
                   }}
                   resizeMode="contain"
                 />
-                <Text className="text-white text-[24px] font-semibold">
-                  iPhone 15 Pro Max
-                </Text>
-                <Text className="text-white/30 text-[16px]">Apple Product</Text>
+                <View className="flex flex-col justify-center items-center">
+                  <Text className="text-white text-[24px] font-semibold">
+                    iPhone 15 Pro Max
+                  </Text>
+                  <Text className="text-white/30 text-[16px]">
+                    Apple Product
+                  </Text>
+                </View>
               </View>
             </CustomRectangle>
           )}
