@@ -52,7 +52,7 @@ export default function TabLayout() {
           left: 24,
           right: 24,
           paddingBottom: 27,
-          borderTopWidth: 0
+          borderTopWidth: 0,
         },
         tabBarInactiveTintColor: "#fff",
         tabBarActiveTintColor: "#2231B9",
@@ -64,7 +64,7 @@ export default function TabLayout() {
             style={[StyleSheet.absoluteFill, { borderRadius: 16 }]}
           />
         ),
-        tabBarShowLabel: false,
+        tabBarShowLabel: true,
       }}
     >
       {tabArr.map(({ name, title, activeIcon, inactiveIcon }, index) => (
